@@ -1,0 +1,239 @@
+current:
+  - id: "1R01NS128486-01 (Varghese, Sheikh-Bahai, Choupan)"
+    project_period: "07/2022 – 06/2027"
+    funding_agency: "NIH/NINDS"
+    effort: "15%"
+    role: "Contact PI"
+    title: "Large-scale harmonization and integration of multi-modal ADNI data for the early detection of Alzheimer’s disease and related dementias"
+    goals: |
+      We aim to harmonize and aggregate trans-national cohorts of the Alzheimer’s Disease Neuroimaging Initiative (ADNI) to improve early detection of Alzheimer’s disease and related dementias. In doing so, we gain deeper insight into the mechanisms driving pathogenesis, paving the way for better clinical tools and more efficient allocation of future disease-modifying therapies.
+
+  - id: "Class Action: Wyeth Krueger Award (Varghese)"
+    project_period: "09/2021 – 08/2026"
+    funding_agency: "Y"
+    effort: "15%"
+    role: "PI"
+    title: "Validating a Hybrid Artificial Intelligence-Based Framework for Characterizing Breast Masses Using Contrast-Enhanced Ultrasound (CEUS)"
+    goals: |
+      Develop and validate a systematic framework that combines machine learning (ML) and deep learning (DL) approaches to stratify breast malignancy using CEUS-derived metrics. The goal is to reduce unnecessary biopsies, particularly among vulnerable or underserved breast cancer patients.
+
+  - id: "1R01CA257610-01 (Goldkorn / Triche / Duddalwar)"
+    project_period: "02/2021 – 01/2026"
+    funding_agency: "NIH/NCI"
+    effort: "15%"
+    role: "Unpaid Collaborator"
+    title: "Integrated radiomic and liquid biopsy monitoring in SWOG S1802: A phase 3 therapeutic trial for metastatic prostate cancer"
+    goals: |
+      Apply multi-parametric liquid biopsy assays with radiomic analysis to monitor resistance and progression in a large Phase 3 clinical trial involving men with de novo metastatic castrate-sensitive prostate cancer receiving standard systemic therapy ± treatment of the primary tumor.
+
+  - id: "1RF1AG082201-01 (Irimia)"
+    project_period: "04/2023 – 03/2028"
+    funding_agency: "NIH/NINDS"
+    effort: "15%"
+    role: "Co-Investigator"
+    title: "Neurovascular calcification, Alzheimer’s disease, and related dementias in two Native South American populations"
+    goals: |
+      1. Develop new intracranial internal carotid artery calcifications (iICAC) analysis methods.
+      2. Examine their relationship to age-related brain volume trajectories.
+      3. Clarify how iICAC contributes to mild cognitive impairment (MCI) and Alzheimer’s disease/related dementias (ADRD), informing broader U.S. healthcare strategies.
+
+  - id: "2024 Idea Award"
+    project_period: "08/2024 – 08/2026"
+    funding_agency: "CBCRP"
+    effort: "20%"
+    role: "PI"
+    title: "Leveraging Radiomics and Artificial Intelligence for Early Breast Cancer Detection Using Mammograms"
+    goals: |
+      Integrate advanced image processing, AI, and statistical modeling to derive a “pre-malignancy index (PMI).” By leveraging PMI, we can create a digital twin for breast health, incorporating family history, lifestyle factors, genotype, and phenotype to forecast breast health trajectories and model interventions aimed at minimizing breast cancer risk.
+
+pending:
+  - id: "NIH/NCI R01 (Varghese/Cen/Duddalwar)"
+    effort: "1 calendar month"
+    funding_agency: "NIH"
+    role: "PI"
+    title: "Phantom-based Standardization Strategies for Performing Multi-Institutional CT Radiomics"
+    goals: |
+      • Evaluate the feasibility of using robust, reproducible, and repeatable (RRR) metrics extracted from a novel CT-based radiomics phantom as a feature-reduction technique.
+      • Assess performance on clinical datasets for tissue characterization.
+      • Investigate methods to standardize non-RRR radiomic metrics from multiple institutions with diverse scan settings to improve performance and reduce variance.
+
+  - id: "NIH/NCI R01 (Varghese/Thomas/Yamashita)"
+    effort: "1 calendar month"
+    funding_agency: "NIH"
+    role: "PI"
+    title: "Contrast Enhanced Mammography for Breast Cancer Detection in Women with Dense Breasts and High-Risk Status (CEMDR)"
+    goals: |
+      • Determine the best use of contrast-enhanced mammography (CEM) for breast cancer detection (stand-alone vs. combining with digital tomosynthesis, DBT).
+      • Assess whether CEM or CEM+DBT can match MRI performance and gauge patient preference between CEM and MRI.
+      • Use novel quantitative imaging and AI solutions to enhance CEM for detecting “invisible” high-risk tissue that predisposes to future interval cancers.
+
+past:
+  - id: "Wright Foundation"
+    pi: "Varghese"
+    project_period: "07/01/19 – 06/30/21"
+    effort: "2.4 calendar months"
+    funding_agency: "Wright Foundation"
+    role: "PI"
+    title: "Characterizing Breast Masses Using an Integrative Framework of Machine Learning and Radiomics"
+    goals: "Proposed a radiomics + machine-learning solution to discriminate breast lesions using CEUS data."
+
+  - id: "BD2K 2017"
+    pi: "Varghese"
+    project_period: "01/01/17 – 05/31/17"
+    effort: "1.8 calendar months"
+    funding_agency: "Big Data to Knowledge (BD2K)"
+    role: "PI"
+    title: "Big Data to Clinical Knowledge: Using Radiomics and Machine Learning to Go Beyond the Visual Assessment of Medical Images"
+    goals: "Use advanced machine learning techniques to intelligently select features from our radiomics platform for tasks ranging from tumor malignancy stratification to prostate tumor grading."
+
+  - id: "ACS (IRG-16-181-57)"
+    pi: "Varghese"
+    project_period: "09/01/19 – 08/31/20"
+    effort: "0.12 calendar months"
+    role: "PI"
+    title: "Radiomic Signature of CD+ T Cell Infiltration and PD-L1 Expression in Metastatic Renal Cell Carcinoma"
+    goals: "Identify relationships between immune-histochemical features and radiomic features of ccRCC."
+
+  - id: "Dean’s Pilot Grant"
+    pi: "Varghese"
+    project_period: "03/01/20 – 08/31/21"
+    effort: "2.4 calendar months"
+    funding_agency: "Dean’s Pilot Grant"
+    role: "PI"
+    title: "Reliability Assessment of CT-based Radiomics Metrics in Tissue Characterization"
+    goals: "Design an imaging-based phantom to standardize CT-radiomics metrics in tissue characterization."
+
+  - id: "Samsung"
+    pi: "Duddalwar, Vinay"
+    project_period: "08/15/18 – 08/15/21"
+    effort: "1 calendar month"
+    funding_agency: "Samsung"
+    role: "Co-Investigator"
+    title: "Assessing the Role of Contrast-Enhanced Ultrasound and MV Flow™ Technology of Samsung RS85 in the Evaluation of Renal Masses"
+    goals: "Differentiate benign from malignant renal masses using real-time CEUS and MV Flow™ imaging."
+
+  - id: "RSNA (Fullenkamp)"
+    pi: "Fullenkamp, Justin"
+    project_period: "07/01/19 – 06/30/20"
+    effort: "0.12 calendar months"
+    funding_agency: "Radiological Society of North America"
+    role: "Co-Investigator"
+    title: "Predicting CD8+ T Cell Infiltration in Renal Cell Carcinoma Using Radiomic Signatures"
+    goals: "Identify relationships between CD8+ T cell infiltration in clear cell renal cell carcinoma and malignancy profiles."
+
+  - id: "RSNA (Liu)"
+    pi: "Liu, Derek"
+    project_period: "07/01/19 – 06/30/20"
+    effort: "0.12 calendar months"
+    funding_agency: "Radiological Society of North America"
+    role: "Co-Investigator"
+    title: "Radiogenomics Analysis of TCGA Muscle Invasive Bladder Carcinoma"
+    goals: "Identify relationships between CT-based texture features of muscle-invasive bladder carcinoma and its genomics profile."
+
+  - id: "RSNA (Fields)"
+    pi: "Fields, Brandon"
+    project_period: "07/01/19 – 06/30/20"
+    effort: "0.12 calendar months"
+    funding_agency: "Radiological Society of North America"
+    role: "Co-Investigator"
+    title: "Radiomic Texture Analysis of Quantitative Magnetic Resonance Imaging of Soft-Tissue Sarcomas"
+    goals: "Identify relationships between MRI-based texture features of soft-tissue sarcomas and their tumor behavior."
+
+  - id: "CTSI (Zahoor)"
+    pi: "Zahoor, Harris"
+    project_period: "06/01/19 – 05/31/20"
+    effort: "0.12 calendar months"
+    funding_agency: "Clinical and Translational Science Institute (2019)"
+    role: "Co-Investigator"
+    title: "Retrospective Analysis of Patients with Renal Cell Carcinoma (RCC) Treated at LAC+USC Medical Center and USC Norris Comprehensive Cancer Center"
+    goals: "Identify relationships between immune-histochemical features and radiomic features of ccRCC."
+
+  - id: "RMS"
+    pi: "Yap, Felix"
+    project_period: "06/01/18 – 05/31/19"
+    effort: "1 calendar month"
+    funding_agency: "Radiological Society of North America"
+    role: "Co-Investigator"
+    title: "The Shapely Renal Mass: Quantitative Contour Evaluation of Renal Cell Carcinoma"
+    goals: "Develop a radiomics model using contrast-enhanced computed tomography (CECT) to evaluate how shape metrics can predict RCC behavior."
+
+  - id: "ACG"
+    pi: "Buxbaum, James"
+    project_period: "07/01/18 – 06/30/19"
+    effort: "1 calendar month"
+    funding_agency: "American College of Gastroenterology"
+    role: "Co-Investigator"
+    title: "Quantitative Metrics in Endoscopic Contrast-Enhanced Ultrasound of the Pancreas"
+    goals: "Explore quantitative metrics in endoscopic contrast-enhanced ultrasound of the pancreas."
+
+  - id: "RSNA (Lau)"
+    pi: "Lau, Christopher"
+    project_period: "06/01/18 – 05/31/19"
+    effort: "1 calendar month"
+    funding_agency: "Radiological Society of North America"
+    role: "Co-Investigator"
+    title: "Association of CT Texture and Epigenomics in Clear Cell Renal Carcinoma"
+    goals: "Identify relationships between CT-based texture features of ccRCC and its epigenomics profile."
+
+  - id: "STR"
+    pi: "Lin, Leah"
+    project_period: "07/01/18 – 06/30/19"
+    effort: "1 calendar month"
+    funding_agency: "Society of Thoracic Radiology"
+    role: "Co-Investigator"
+    title: "Evaluation of Lung Cancer Treatment Response to Stereotactic Body Radiation Therapy Utilizing Volumetric Dynamic Contrast-Enhanced CT and Texture Analysis"
+    goals: "Evaluate lung cancer treatment response to SBRT using volumetric dynamic contrast-enhanced CT and texture analysis."
+
+  - id: "DPF2016"
+    pi: "Conti, Peter"
+    project_period: "12/01/16 – 11/31/17"
+    effort: "1.8 calendar months"
+    funding_agency: "Dean’s Pilot Fund 2016"
+    role: "Co-Investigator"
+    title: "Utility of Preclinical PET/CT Imaging of αvβ6 Integrin for Molecular Stratification of Pulmonary Fibrosis"
+    goals: "Develop multimodality molecular imaging probes targeting αvβ6 integrin and assess feasibility of tracking fibrosis progression using PET/CT."
+
+  - id: "CTSI2017 (Duddalwar)"
+    pi: "Duddalwar, Vinay"
+    project_period: "02/01/17 – 01/31/18"
+    effort: "1.8 calendar months"
+    funding_agency: "Clinical and Translational Science Institute (2017)"
+    role: "Co-Investigator"
+    title: "A Novel Radioepigenomics Approach to Discriminate Aggressive from Indolent Renal Cell Carcinoma"
+    goals: "Develop a combined radiomics + epigenomics approach to differentiate aggressive from indolent renal cell carcinoma."
+
+  - id: "CTSI2017 (King)"
+    pi: "King, Kevin"
+    project_period: "02/01/17 – 01/31/18"
+    effort: "1.8 calendar months"
+    funding_agency: "Clinical and Translational Science Institute (2017)"
+    role: "Co-Investigator"
+    title: "Time Intensity Curve Analysis in Contrast-Enhanced Ultrasound Evaluation of EphB4 as a Therapeutic Target in the Treatment of Renal Cell Carcinoma"
+    goals: "Evaluate EphB4 as a therapeutic target for RCC using quantitative time-intensity curve analysis of contrast-enhanced ultrasound."
+
+  - id: "SAR2017 (King)"
+    pi: "King, Kevin"
+    project_period: "02/01/17 – 01/31/18"
+    effort: "1.8 calendar months"
+    funding_agency: "Society of Abdominal Radiology (2017)"
+    role: "Co-Investigator"
+    title: "Time Intensity Curve Analysis in Contrast-Enhanced Ultrasound Evaluation of EphB4 as a Therapeutic Target in the Treatment of Renal Cell Carcinoma"
+    goals: "Similar to the CTSI2017 project, focusing on quantitative CEUS for evaluating EphB4 as a therapeutic target in RCC."
+
+  - id: "RMS1621"
+    pi: "Fan, Ting-Wei"
+    project_period: "06/01/17 – 05/31/18"
+    effort: "1 calendar month"
+    funding_agency: "Radiological Society of North America"
+    role: "Co-Investigator"
+    title: "Radiomics Evaluation of Bladder Cancer: Differentiating Transitional Cell Carcinoma from Micropapillary Carcinoma"
+    goals: "Propose a radiomics solution for earlier detection and diagnosis of micropapillary carcinoma of the bladder (MPCs), aiming to improve outcomes."
+
+  - id: "Whittier Foundation"
+    pi: "Duddalwar, Vinay"
+    project_period: "03/01/17 – 02/28/18"
+    effort: "1 calendar month"
+    funding_agency: "Whittier Foundation"
+    role: "Co-Investigator"
+    title: "Utility of a Novel Radioepigenomics Approach to Discriminate Aggressive from Indolent Clear Cell Renal Cell Carcinoma"
+    goals: "Develop a radiomics + epigenomics solution to differentiate aggressive from indolent ccRCC."
