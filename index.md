@@ -1,9 +1,9 @@
 ---
 ---
 
-# AIMR-Lab's Website
+# AI for Medical Radiology 
 
-An engaging 1-3 sentence description of your lab.
+Using machine learning and radiomics to retrive insights from radiology report data.
 
 {% include section.html %}
 
