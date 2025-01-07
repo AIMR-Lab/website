@@ -1,15 +1,26 @@
 ---
-title: Grant
+title: Grants
 nav:
   order: 2
-  tooltip: Email, address, and location
+  tooltip: Active, pending, and past funding
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Grant
+# {% include icon.html icon="fa-solid fa-hand-holding-dollar" %} Grants
 
-{% for grant in site.data.grant.current %}
-  <h2>{{ grant.id }}</h2>
-  <p><strong>Project Period:</strong> {{ grant.project_period }}</p>
-  <p><strong>Funding Agency:</strong> {{ grant.funding_agency }}</p>
-  ...
-{% endfor %}
+{% include tags.html tags="nih, neurology, foundation, breast-cancer" %}
+{% include search-info.html %}
+
+{% include section.html %}
+
+## Current
+{% include list.html component="card" data="grants" filter="group == 'current'" %}
+
+{% include section.html %}
+
+## Pending
+{% include list.html component="card" data="grants" filter="group == 'pending'" style="small" %}
+
+{% include section.html %}
+
+## Past
+{% include list.html component="card" data="grants" filter="group == 'past'" style="small" %}
