@@ -49,9 +49,9 @@ This study applies multi-parametric liquid biopsy assays, combined with radiomic
 **Role:** Co-Investigator  
 **Title:** Neurovascular calcification, Alzheimer’s disease, and related dementias in two Native South American populations  
 **Goals:**  
-1. Develop new intracranial internal carotid artery calcifications (iICAC) analysis methods.  
-2. Examine their relationship to age-related brain volume trajectories.  
-3. Clarify how iICAC contributes to mild cognitive impairment (MCI) and Alzheimer’s disease/related dementias (ADRD).  
+- Develop new intracranial internal carotid artery calcifications (iICAC) analysis methods.  
+- Examine their relationship to age-related brain volume trajectories.  
+- Clarify how iICAC contributes to mild cognitive impairment (MCI) and Alzheimer’s disease/related dementias (ADRD).  
 Findings will inform broader U.S. healthcare strategies and interventions.
 
 ---
