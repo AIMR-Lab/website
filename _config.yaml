@@ -1,7 +1,7 @@
 # site properties and page defaults
-title: AIMR-Lab
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: AIMR LAB
+subtitle: Keck School of Medicine 
+description: Using machine learning and radiomics to retrive insights from radiology report data.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
@@ -10,10 +10,9 @@ proofer: false
 links:
   email: contact@AIMR-Lab.com
   orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  google-scholar: gD0AIZAAAAAJ
   github: AIMR-Lab
-  twitter: AIMR-Lab
-  youtube: AIMR-Lab
+
 
 ### jekyll settings
 
