@@ -5,22 +5,48 @@ nav:
   tooltip: Active, pending, and past funding
 ---
 
-# {% include icon.html icon="fa-solid fa-hand-holding-dollar" %} Grants
+# Grants
+
+Below is an overview of the grants supporting the lab’s research efforts. Each entry includes the project’s duration, goals, and funding source. These initiatives reflect the lab’s commitment to innovation and collaboration across multiple disciplines, enabled by invaluable support from funding agencies.
 
 {% include tags.html tags="nih, neurology, foundation, breast-cancer" %}
 {% include search-info.html %}
 
-{% include section.html %}
-
 ## Current
-{% include list.html component="card" data="grants" filter="group == 'current'" %}
+{% for grant in site.data.grants %}
+{% if grant.group == "current" %}
+### {{ grant.title }}
+**Subtitle:** {{ grant.subtitle }}  
+{% if grant.link %}_[View More]({{ grant.link }})_{% endif %}  
+  
+{{ grant.description }}
 
-{% include section.html %}
+---
+{% endif %}
+{% endfor %}
 
 ## Pending
-{% include list.html component="card" data="grants" filter="group == 'pending'" style="small" %}
+{% for grant in site.data.grants %}
+{% if grant.group == "pending" %}
+### {{ grant.title }}
+**Subtitle:** {{ grant.subtitle }}  
+{% if grant.link %}_[View More]({{ grant.link }})_{% endif %}  
+ 
+{{ grant.description }}
 
-{% include section.html %}
+---
+{% endif %}
+{% endfor %}
 
 ## Past
-{% include list.html component="card" data="grants" filter="group == 'past'" style="small" %}
+{% for grant in site.data.grants %}
+{% if grant.group == "past" %}
+### {{ grant.title }}
+**Subtitle:** {{ grant.subtitle }}  
+{% if grant.link %}_[View More]({{ grant.link }})_{% endif %}  
+
+{{ grant.description }}
+
+---
+{% endif %}
+{% endfor %}
