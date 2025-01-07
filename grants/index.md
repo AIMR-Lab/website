@@ -1,7 +1,7 @@
 ---
 title: Grant
 nav:
-  order: 5
+  order: 2
   tooltip: Email, address, and location
 ---
 
