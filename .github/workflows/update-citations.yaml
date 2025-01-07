@@ -20,11 +20,14 @@ permissions:
 
 env:
   FORCE_COLOR: true
+  ENVIRONMENT: github-pages
   GOOGLE_SCHOLAR_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_API_KEY }}
 
 jobs:
   update-citations:
+    environment: github-pages
     runs-on: ubuntu-latest
+    secrets: inherit
     timeout-minutes: 15
 
     steps:
