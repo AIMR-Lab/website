@@ -40,6 +40,7 @@ def main(entry):
     sources = []
 
     # go through response and format sources
+    # Go through response and format sources
     for work in response:
         year = get_safe(work, "year", "")
         try:
@@ -56,11 +57,21 @@ def main(entry):
             if not source["id"].startswith(("doi:", "pubmed:", "arxiv:", "pmc:")):
                 raise NotImplementedError("Manubot cannot generate a csl_item for this id.")
 
-            # Copy fields from entry to source
-            source.update(entry)
+            # Add source to the list
             sources.append(source)
 
         except NotImplementedError:
-            print(f"Skipping non-Manubot-compatible citation: {get_safe(work, 'citation_id', '')}")
+            # Fallback: Generate a simplified citation directly from metadata
+            fallback_source = {
+                "id": get_safe(work, "citation_id", ""),
+                "title": get_safe(work, "title", "Unknown Title"),
+                "authors": list(map(str.strip, get_safe(work, "authors", "Unknown Authors").split(","))),
+                "publisher": get_safe(work, "publication", "Unknown Publisher"),
+                "date": (year + "-01-01") if year else "",
+                "link": get_safe(work, "link", ""),
+                "description": "This citation was generated directly from Google Scholar metadata.",
+            }
+            print(f"Using fallback for non-standard citation: {fallback_source['id']}")
+            sources.append(fallback_source)
 
     return sources
