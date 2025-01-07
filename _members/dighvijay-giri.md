@@ -1,6 +1,6 @@
 ---
 name: Dighvijay Giri
-image: _members/dighvijay-giri.md
+image: images/Dighvijay_Giri_Photo.JPG
 description: Reasearh Asssistant
 role: programmer
 links:
