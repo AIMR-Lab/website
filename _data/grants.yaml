@@ -1,0 +1,350 @@
+- title: R01NS128486-01
+  subtitle: "07/2022 – 06/2027 (NIH/NINDS)"
+  group: current
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Contact PI  
+    **Effort:** 15%  
+
+    Large-scale harmonization and integration of multi-modal ADNI data for the early detection of Alzheimer’s disease and related dementias.  
+    This study aims to aggregate data across multiple cohorts, enabling better clinical tools for future disease-modifying therapies.
+  repo:
+  tags:
+    - nih
+    - neurology
+
+- title: Wyeth Krueger Award (Varghese)
+  subtitle: "09/2021 – 08/2026 (Y)"
+  group: current
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** PI  
+    **Effort:** 15%  
+
+    Validating a Hybrid AI-Based Framework for Breast Masses Using Contrast-Enhanced Ultrasound (CEUS).  
+    This work aims to reduce unnecessary biopsies, especially among underserved breast cancer patients.
+  repo:
+  tags:
+    - foundation
+    - breast-cancer
+
+- title: NIH/NCI R01 (Phantom-based CT Radiomics)
+  subtitle: "1 calendar month"
+  group: pending
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** PI  
+
+    Evaluate the feasibility of using robust, reproducible, and repeatable (RRR) metrics from a novel CT-based radiomics phantom as a feature-reduction technique.  
+    Investigate strategies to standardize radiomic features across multiple institutions.
+  repo:
+  tags:
+    - pending
+
+- title: Wright Foundation
+  subtitle: "07/01/19 – 06/30/21"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** PI  
+    **Effort:** 2.4 cal months  
+
+    Characterizing Breast Masses Using an Integrative Framework of Machine Learning and Radiomics.  
+    Proposed a CEUS-based radiomics + machine learning solution for breast lesions.
+  repo:
+  tags:
+    - radiomics
+    - breast-cancer
+
+- title: BD2K 2017
+  subtitle: "01/01/17 – 05/31/17 (Big Data to Knowledge)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** PI  
+    **Effort:** 1.8 cal months  
+
+    Big Data to Clinical Knowledge: Using Radiomics and Machine Learning to Go Beyond the Visual Assessment of Medical Images.  
+    Applied advanced machine learning to select features for tasks ranging from tumor malignancy stratification to prostate tumor grading.
+  repo:
+  tags:
+    - machine-learning
+    - big-data
+
+- title: ACS (IRG-16-181-57)
+  subtitle: "09/01/19 – 08/31/20"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** PI  
+    **Effort:** 0.12 cal months  
+
+    Radiomic Signature of CD+ T Cell Infiltration and PD-L1 Expression in Metastatic Renal Cell Carcinoma.  
+    Explored relationships between immune-histochemical features and radiomic data in ccRCC.
+  repo:
+  tags:
+    - cancer
+    - immunotherapy
+
+- title: Dean’s Pilot Grant
+  subtitle: "03/01/20 – 08/31/21"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** PI  
+    **Effort:** 2.4 cal months  
+
+    Reliability Assessment of CT-based Radiomics Metrics in Tissue Characterization.  
+    Designed an imaging-based phantom study to standardize CT-radiomics metrics.
+  repo:
+  tags:
+    - pilot
+    - ct-radiomics
+
+- title: Samsung
+  subtitle: "08/15/18 – 08/15/21"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1 calendar month  
+
+    Assessing the Role of Contrast-Enhanced Ultrasound and MV Flow™ Technology of Samsung RS85 in the Evaluation of Renal Masses.  
+    Differentiated benign from malignant renal masses using real-time CEUS.
+  repo:
+  tags:
+    - ultrasound
+    - imaging
+
+- title: RSNA (Fullenkamp)
+  subtitle: "07/01/19 – 06/30/20 (Radiological Society of North America)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 0.12 cal months  
+
+    Predicting CD8+ T Cell Infiltration in Renal Cell Carcinoma Using Radiomic Signatures.  
+    Investigated how immune cell infiltration correlates with radiomic features in ccRCC.
+  repo:
+  tags:
+    - imaging
+    - immunotherapy
+
+- title: RSNA (Liu)
+  subtitle: "07/01/19 – 06/30/20"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 0.12 cal months  
+
+    Radiogenomics Analysis of TCGA Muscle Invasive Bladder Carcinoma.  
+    Assessed relationships between CT texture features and genomic data.
+  repo:
+  tags:
+    - imaging
+    - genomics
+
+- title: RSNA (Fields)
+  subtitle: "07/01/19 – 06/30/20"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 0.12 cal months  
+
+    Radiomic Texture Analysis of Quantitative Magnetic Resonance Imaging of Soft-Tissue Sarcomas.  
+    Studied how MRI-based texture features reflect sarcoma behavior.
+  repo:
+  tags:
+    - imaging
+    - mri
+
+- title: CTSI (Zahoor)
+  subtitle: "06/01/19 – 05/31/20 (Clinical and Translational Science Institute)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 0.12 cal months  
+
+    Retrospective Analysis of Patients with RCC Treated at LAC+USC Medical Center and USC Norris.  
+    Explored immune-histochemical and radiomic correlations in ccRCC.
+  repo:
+  tags:
+    - ctsi
+    - retrospective-study
+
+- title: RMS (Yap)
+  subtitle: "06/01/18 – 05/31/19 (Radiological Society of North America)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1 calendar month  
+
+    The Shapely Renal Mass: Quantitative Contour Evaluation of Renal Cell Carcinoma.  
+    Developed a radiomics model using contrast-enhanced CT to evaluate shape metrics in predicting RCC behavior.
+  repo:
+  tags:
+    - shape-metrics
+    - renal
+
+- title: ACG (Buxbaum)
+  subtitle: "07/01/18 – 06/30/19 (American College of Gastroenterology)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1 calendar month  
+
+    Quantitative Metrics in Endoscopic Contrast-Enhanced Ultrasound of the Pancreas.  
+    Explored advanced quantitative CEUS metrics for pancreatic lesions.
+  repo:
+  tags:
+    - ultrasound
+    - pancreas
+
+- title: RSNA (Lau)
+  subtitle: "06/01/18 – 05/31/19"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1 calendar month  
+
+    Association of CT Texture and Epigenomics in Clear Cell Renal Carcinoma.  
+    Explored how CT-based texture features relate to epigenetic signatures in ccRCC.
+  repo:
+  tags:
+    - imaging
+    - epigenomics
+
+- title: STR (Lin)
+  subtitle: "07/01/18 – 06/30/19 (Society of Thoracic Radiology)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1 calendar month  
+
+    Evaluation of Lung Cancer Treatment Response to SBRT Utilizing Volumetric Dynamic Contrast-Enhanced CT and Texture Analysis.  
+    Studied how lung tumors respond to stereotactic body radiation therapy.
+  repo:
+  tags:
+    - thoracic
+    - sbrt
+
+- title: DPF2016 (Conti)
+  subtitle: "12/01/16 – 11/31/17 (Dean’s Pilot Fund)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1.8 cal months  
+
+    Utility of Preclinical PET/CT Imaging of αvβ6 Integrin for Molecular Stratification of Pulmonary Fibrosis.  
+    Developed multimodality molecular imaging probes targeting αvβ6 integrin.
+  repo:
+  tags:
+    - pilot
+    - imaging
+    - integrin
+
+- title: CTSI2017 (Duddalwar)
+  subtitle: "02/01/17 – 01/31/18"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1.8 cal months  
+
+    A Novel Radioepigenomics Approach to Discriminate Aggressive from Indolent Renal Cell Carcinoma.  
+    Combined radiomics + epigenomics to identify aggressive RCC phenotypes.
+  repo:
+  tags:
+    - epigenomics
+    - ctsi
+
+- title: CTSI2017 (King)
+  subtitle: "02/01/17 – 01/31/18"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1.8 cal months  
+
+    Time Intensity Curve Analysis in Contrast-Enhanced Ultrasound Evaluation of EphB4 as a Therapeutic Target in RCC.  
+    Evaluated EphB4 as a treatment target using quantitative CEUS of renal masses.
+  repo:
+  tags:
+    - ctsi
+    - ultrasound
+
+- title: SAR2017 (King)
+  subtitle: "02/01/17 – 01/31/18 (Society of Abdominal Radiology)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1.8 cal months  
+
+    Time Intensity Curve Analysis in Contrast-Enhanced Ultrasound Evaluation of EphB4 as a Therapeutic Target in RCC.  
+    Similar to CTSI2017, focusing on quantitative CEUS for evaluating EphB4 in RCC.
+  repo:
+  tags:
+    - abdominal-radiology
+    - ultrasound
+
+- title: RMS1621 (Fan)
+  subtitle: "06/01/17 – 05/31/18 (RSNA)"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1 calendar month  
+
+    Radiomics Evaluation of Bladder Cancer: Differentiating Transitional Cell Carcinoma from Micropapillary Carcinoma.  
+    Proposed a radiomics solution for earlier detection of MPCs, aiming to improve outcomes.
+  repo:
+  tags:
+    - bladder-cancer
+    - rsna
+
+- title: Whittier Foundation
+  subtitle: "03/01/17 – 02/28/18"
+  group: past
+  image: images/photo.jpg
+  link: https://example.com
+  description: >
+    **Role:** Co-Investigator  
+    **Effort:** 1 calendar month  
+
+    Utility of a Novel Radioepigenomics Approach to Discriminate Aggressive from Indolent Clear Cell Renal Cell Carcinoma.  
+    Developed a radiomics + epigenomics solution to differentiate malignant ccRCC from indolent disease.
+  repo:
+  tags:
+    - epigenomics
+    - whittier
