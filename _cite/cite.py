@@ -8,17 +8,14 @@ from pathlib import Path
 from dotenv import load_dotenv
 from util import *
 
-
 # load environment variables
 load_dotenv()
-
 
 # error flag
 error = False
 
 # output citations file
 output_file = "_data/citations.yaml"
-
 
 log()
 
@@ -108,9 +105,7 @@ for a in range(0, len(sources)):
             sources[b] = {}
 sources = [entry for entry in sources if entry]
 
-
 log(f"{len(sources)} total source(s) to cite")
-
 
 log()
 
@@ -118,7 +113,6 @@ log("Generating citations")
 
 # list of new citations
 citations = []
-
 
 # loop through compiled sources
 for index, source in enumerate(sources):
@@ -142,17 +136,41 @@ for index, source in enumerate(sources):
             # run Manubot and set citation
             citation = cite_with_manubot(_id)
 
-        # if Manubot cannot cite source
+        except NotImplementedError as e:
+            # Specific handling for unsupported IDs
+            log(f"Manubot does not support ID: {_id}. Generating fallback citation.", 3, "WARNING")
+            # Fallback: Generate minimal citation metadata
+            citation = {
+                "id": _id,
+                "title": get_safe(source, "title", "Untitled"),
+                "authors": get_safe(source, "authors", []),
+                "publisher": get_safe(source, "publisher", "Unknown Publisher"),
+                "date": get_safe(source, "date", ""),
+                "link": get_safe(source, "link", ""),
+                "description": "Generated from fallback mechanism due to unsupported ID."
+            }
+
         except Exception as e:
-            # if regular source (id entered by user), throw error
+            # Generic handling for all other errors
             if get_safe(source, "plugin", "") == "sources.py":
-                log(e, 3, "ERROR")
+                log(f"Error generating citation for {_id}: {e}", 3, "ERROR")
                 error = True
-            # otherwise, if from metasource (id retrieved from some third-party API), just warn
             else:
-                log(e, 3, "WARNING")
-                # discard source from citations
-                continue
+                log(f"Warning: Unable to process source ID {_id}: {e}", 3, "WARNING")
+            # Skip this source in both cases
+            continue
+
+    else:
+        # Handle sources without an ID
+        log("Source does not have an ID. Generating minimal fallback citation.", 1, "WARNING")
+        citation = {
+            "title": get_safe(source, "title", "Untitled"),
+            "authors": get_safe(source, "authors", []),
+            "publisher": get_safe(source, "publisher", "Unknown Publisher"),
+            "date": get_safe(source, "date", ""),
+            "link": get_safe(source, "link", ""),
+            "description": "Generated from fallback mechanism due to missing ID."
+        }
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
@@ -164,11 +182,9 @@ for index, source in enumerate(sources):
     # add new citation to list
     citations.append(citation)
 
-
 log()
 
 log("Saving updated citations")
-
 
 # save new citations
 try:
@@ -176,7 +192,6 @@ try:
 except Exception as e:
     log(e, level="ERROR")
     error = True
-
 
 # exit at end, so user can see all errors in one run
 if error:
