@@ -73,5 +73,5 @@ def main(entry):
             }
             print(f"Using fallback for non-standard citation: {fallback_source['id']}")
             sources.append(fallback_source)
-
+    print(sources)
     return sources
