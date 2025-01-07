@@ -16,7 +16,7 @@ Below is an overview of the grants supporting the lab’s research efforts. Each
 {% for grant in site.data.grants %}
 {% if grant.group == "current" %}
 ### {{ grant.title }}
-**Subtitle:** {{ grant.subtitle }}  
+**Duration:** {{ grant.subtitle }}  
 {% if grant.link %}_[View More]({{ grant.link }})_{% endif %}  
   
 {{ grant.description }}
@@ -29,7 +29,7 @@ Below is an overview of the grants supporting the lab’s research efforts. Each
 {% for grant in site.data.grants %}
 {% if grant.group == "pending" %}
 ### {{ grant.title }}
-**Subtitle:** {{ grant.subtitle }}  
+**Duration:** {{ grant.subtitle }}  
 {% if grant.link %}_[View More]({{ grant.link }})_{% endif %}  
  
 {{ grant.description }}
@@ -42,7 +42,7 @@ Below is an overview of the grants supporting the lab’s research efforts. Each
 {% for grant in site.data.grants %}
 {% if grant.group == "past" %}
 ### {{ grant.title }}
-**Subtitle:** {{ grant.subtitle }}  
+**Duration:** {{ grant.subtitle }}  
 {% if grant.link %}_[View More]({{ grant.link }})_{% endif %}  
 
 {{ grant.description }}
