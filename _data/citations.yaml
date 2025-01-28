@@ -1,5 +1,834 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39742350
+  title: 'Editorial: Advances in artificial intelligence and machine learning applications
+    for the imaging of bone and soft tissue tumors.'
+  authors:
+  - Brandon K K Fields
+  - Bino A Varghese
+  - George R Matcuk
+  publisher: Frontiers in radiology
+  date: '2024-12-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39742350
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39301168
+  title: Artificial intelligence and machine learning applications for the imaging
+    of bone and soft tissue tumors.
+  authors:
+  - Paniz Sabeghi
+  - Ketki K Kinkar
+  - Gloria Del Rosario Castaneda
+  - Liesl S Eibschutz
+  - Brandon K K Fields
+  - Bino A Varghese
+  - Dakshesh B Patel
+  - Ali Gholamrezanezhad
+  publisher: Frontiers in radiology
+  date: '2024-09-05'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39301168
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39217355
+  title: 'Deep learning for the harmonization of structural MRI scans: a survey.'
+  authors:
+  - Soolmaz Abbasi
+  - Haoyu Lan
+  - Jeiran Choupan
+  - Nasim Sheikh-Bahaei
+  - Gaurav Pandey
+  - Bino Varghese
+  publisher: Biomedical engineering online
+  date: '2024-08-31'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39217355
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38386922
+  title: Technical and clinical considerations of a physical liver phantom for CT
+    radiomics analysis.
+  authors:
+  - Bino Abel Varghese
+  - Steven Yong Cen
+  - Kristin Jensen
+  - Joshua Levy
+  - Hilde Kjernlie Andersen
+  - Anselm Schulz
+  - Xiaomeng Lei
+  - Vinay Anant Duddalwar
+  - David John Goodenough
+  publisher: Journal of applied clinical medical physics
+  date: '2024-02-22'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38386922
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38249158
+  title: 'Empowering breast cancer diagnosis and radiology practice: advances in artificial
+    intelligence for contrast-enhanced mammography.'
+  authors:
+  - Ketki K Kinkar
+  - Brandon K K Fields
+  - Mary W Yamashita
+  - Bino A Varghese
+  publisher: Frontiers in radiology
+  date: '2024-01-05'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38249158
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38167932
+  title: Conditional generative learning for medical image imputation.
+  authors:
+  - Ragheb Raad
+  - Deep Ray
+  - Bino Varghese
+  - Darryl Hwang
+  - Inderbir Gill
+  - Vinay Duddalwar
+  - Assad A Oberai
+  publisher: Scientific reports
+  date: '2024-01-02'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38167932
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37962032
+  title: Investigating the role of imaging factors in the variability of CT-based
+    texture analysis metrics.
+  authors:
+  - Bino Abel Varghese
+  - Steven Yong Cen
+  - Kristin Jensen
+  - Joshua Levy
+  - Hilde Kjernlie Andersen
+  - Anselm Schulz
+  - Xiaomeng Lei
+  - Vinay Anant Duddalwar
+  - David John Goodenough
+  publisher: Journal of applied clinical medical physics
+  date: '2023-11-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37962032
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37895393
+  title: A Narrative Review of the Use of Artificial Intelligence in Breast, Lung,
+    and Prostate Cancer.
+  authors:
+  - Kishan Patel
+  - Sherry Huang
+  - Arnav Rashid
+  - Bino Varghese
+  - Ali Gholamrezanezhad
+  publisher: Life (Basel, Switzerland)
+  date: '2023-10-04'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37895393
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37799462
+  title: A cross-sectional study to test equivalence of low- versus intermediate-flip
+    angle dynamic susceptibility contrast MRI measures of relative cerebral blood
+    volume in patients with high-grade gliomas at 1.5 Tesla field strength.
+  authors:
+  - Mark S Shiroishi
+  - Dane Weinert
+  - Steven Y Cen
+  - Bino Varghese
+  - Timothy Dondlinger
+  - Melissa Prah
+  - Jesse Mendoza
+  - Sina Nazemi
+  - Nima Ameli
+  - Negin Amini
+  - Salman Shohas
+  - Shannon Chen
+  - Bavrina Bigjahan
+  - Gabriel Zada
+  - Thomas Chen
+  - Josh Neman-Ebrahim
+  - Eric L Chang
+  - Frances E Chow
+  - Zhaoyang Fan
+  - Wensha Yang
+  - Frank J Attenello
+  - Jason Ye
+  - Paul E Kim
+  - Vishal N Patel
+  - Alexander Lerner
+  - Jay Acharya
+  - Leland S Hu
+  - C Chad Quarles
+  - Jerrold L Boxerman
+  - Ona Wu
+  - Kathleen M Schmainda
+  publisher: Frontiers in oncology
+  date: '2023-09-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37799462
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37699367
+  title: Radiomics Correlation to CD68+ Tumor-Associated Macrophages in Clear Cell
+    Renal Cell Carcinoma.
+  authors:
+  - Alexander Shieh
+  - Steven Y Cen
+  - Bino A Varghese
+  - Darryl Hwang
+  - Xiaomeng Lei
+  - Ali Setayesh
+  - Imran Siddiqi
+  - Manju Aron
+  - Anishka Dsouza
+  - Inderbir S Gill
+  - William Wallace
+  - Vinay Duddalwar
+  publisher: Oncology
+  date: '2023-09-12'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37699367
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37693924
+  title: 'Spatial assessments in texture analysis: what the radiologist needs to know.'
+  authors:
+  - Bino A Varghese
+  - Brandon K K Fields
+  - Darryl H Hwang
+  - Vinay A Duddalwar
+  - George R Matcuk
+  - Steven Y Cen
+  publisher: Frontiers in radiology
+  date: '2023-08-24'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37693924
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37249596
+  title: Sarcopenia and body fat change as risk factors for radiologic incisional
+    hernia following robotic nephrectomy.
+  authors:
+  - Simin Hajian
+  - Alireza Ghoreifi
+  - Steven Yong Cen
+  - Bino Varghese
+  - Xiaomeng Lei
+  - Darryl Hwang
+  - Khoa Tran
+  - Tapas Tejura
+  - Gilbert Whang
+  - Hooman Djaladat
+  - Vinay Duddalwar
+  publisher: Skeletal radiology
+  date: '2023-05-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37249596
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37080171
+  title: 'Radiogenomic Associations Clear Cell Renal Cell Carcinoma: An Exploratory
+    Study.'
+  authors:
+  - Derek H Liu
+  - Komal A Dani
+  - Sharath S Reddy
+  - Xiaomeng Lei
+  - Natalie L Demirjian
+  - Darryl H Hwang
+  - Bino A Varghese
+  - Suhn Kyong Rhie
+  - Felix Y Yap
+  - David I Quinn
+  - Imran Siddiqi
+  - Manju Aron
+  - Ulka Vaishampayan
+  - Haris Zahoor
+  - Steven Y Cen
+  - Inderbir S Gill
+  - Vinay A Duddalwar
+  publisher: Oncology
+  date: '2023-04-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37080171
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36695966
+  title: Predicting Soft Tissue Sarcoma Response to Neoadjuvant Chemotherapy Using
+    an MRI-Based Delta-Radiomics Approach.
+  authors:
+  - Brandon K K Fields
+  - Natalie L Demirjian
+  - Steven Y Cen
+  - Bino A Varghese
+  - Darryl H Hwang
+  - Xiaomeng Lei
+  - Bhushan Desai
+  - Vinay Duddalwar
+  - George R Matcuk
+  publisher: Molecular imaging and biology
+  date: '2023-01-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36695966
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36090617
+  title: Feasibility of using CT radiomic signatures for predicting CD8-T cell infiltration
+    and PD-L1 expression in renal cell carcinoma.
+  authors:
+  - Bino Varghese
+  - Steven Cen
+  - Haris Zahoor
+  - Imran Siddiqui
+  - Manju Aron
+  - Akash Sali
+  - Suhn Rhie
+  - Xiaomeng Lei
+  - Marielena Rivas
+  - Derek Liu
+  - Darryl Hwang
+  - David Quinn
+  - Mihir Desai
+  - Ulka Vaishampayan
+  - Inderbir Gill
+  - Vinay Duddalwar
+  publisher: European journal of radiology open
+  date: '2022-09-02'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36090617
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:35741161
+  title: 'An Extra Set of Intelligent Eyes: Application of Artificial Intelligence
+    in Imaging of Abdominopelvic Pathologies in Emergency Radiology.'
+  authors:
+  - Jeffrey Liu
+  - Bino Varghese
+  - Farzaneh Taravat
+  - Liesl S Eibschutz
+  - Ali Gholamrezanezhad
+  publisher: Diagnostics (Basel, Switzerland)
+  date: '2022-05-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35741161
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:35671097
+  title: 'Radiomics quality score in renal masses: a systematic assessment on current
+    literature.'
+  authors:
+  - Afshin Azadikhah
+  - Bino Abel Varghese
+  - Xiaomeng Lei
+  - Chloe Martin-King
+  - Steven Yong Cen
+  - Vinay Anant Duddalwar
+  publisher: The British journal of radiology
+  date: '2022-06-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35671097
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:35269713
+  title: Non-Invasive Profiling of Advanced Prostate Cancer via Multi-Parametric Liquid
+    Biopsy and Radiomic Analysis.
+  authors:
+  - Gareth Morrison
+  - Jonathan Buckley
+  - Dejerianne Ostrow
+  - Bino Varghese
+  - Steven Y Cen
+  - Jeffrey Werbin
+  - Nolan Ericson
+  - Alexander Cunha
+  - Yi-Tsung Lu
+  - Thaddeus George
+  - Jeffrey Smith
+  - David Quinn
+  - Vinay Duddalwar
+  - Timothy Triche
+  - Amir Goldkorn
+  publisher: International journal of molecular sciences
+  date: '2022-02-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35269713
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:34545475
+  title: Benchmarking Various Radiomic Toolkit Features While Applying the Image Biomarker
+    Standardization Initiative toward Clinical Translation of Radiomic Analysis.
+  authors:
+  - Mingxi Lei
+  - Bino Varghese
+  - Darryl Hwang
+  - Steven Cen
+  - Xiaomeng Lei
+  - Bhushan Desai
+  - Afshin Azadikhah
+  - Assad Oberai
+  - Vinay Duddalwar
+  publisher: Journal of digital imaging
+  date: '2021-09-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/34545475
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:34538748
+  title: A Radiomic-based Machine Learning Algorithm to Reliably Differentiate Benign
+    Renal Masses from Renal Cell Carcinoma.
+  authors:
+  - Nima Nassiri
+  - Marissa Maas
+  - Giovanni Cacciamani
+  - Bino Varghese
+  - Darryl Hwang
+  - Xiaomeng Lei
+  - Monish Aron
+  - Mihir Desai
+  - Assad A Oberai
+  - Steven Y Cen
+  - Inderbir S Gill
+  - Vinay A Duddalwar
+  publisher: European urology focus
+  date: '2021-09-16'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/34538748
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:34520246
+  title: Predicting clinical outcomes in COVID-19 using radiomics on chest radiographs.
+  authors:
+  - Bino Abel Varghese
+  - Heeseop Shin
+  - Bhushan Desai
+  - Ali Gholamrezanezhad
+  - Xiaomeng Lei
+  - Melissa Perkins
+  - Assad Oberai
+  - Neha Nanda
+  - Steven Cen
+  - Vinay Duddalwar
+  publisher: The British journal of radiology
+  date: '2021-09-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/34520246
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33893534
+  title: Whole-tumor 3D volumetric MRI-based radiomics approach for distinguishing
+    between benign and malignant soft tissue tumors.
+  authors:
+  - Brandon K K Fields
+  - Natalie L Demirjian
+  - Darryl H Hwang
+  - Bino A Varghese
+  - Steven Y Cen
+  - Xiaomeng Lei
+  - Bhushan Desai
+  - Vinay Duddalwar
+  - George R Matcuk
+  publisher: European radiology
+  date: '2021-04-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33893534
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33633145
+  title: Machine learning based predictors for COVID-19 disease severity.
+  authors:
+  - Dhruv Patel
+  - Vikram Kher
+  - Bhushan Desai
+  - Xiaomeng Lei
+  - Steven Cen
+  - Neha Nanda
+  - Ali Gholamrezanezhad
+  - Vinay Duddalwar
+  - Bino Varghese
+  - Assad A Oberai
+  publisher: Scientific reports
+  date: '2021-02-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33633145
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33434374
+  title: Identification of robust and reproducible CT-texture metrics using a customized
+    3D-printed texture phantom.
+  authors:
+  - Bino A Varghese
+  - Darryl Hwang
+  - Steven Y Cen
+  - Xiaomeng Lei
+  - Joshua Levy
+  - Bhushan Desai
+  - David J Goodenough
+  - Vinay A Duddalwar
+  publisher: Journal of applied clinical medical physics
+  date: '2021-01-12'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33434374
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32803417
+  title: Shape and texture-based radiomics signature on CT effectively discriminates
+    benign from malignant renal masses.
+  authors:
+  - Felix Y Yap
+  - Bino A Varghese
+  - Steven Y Cen
+  - Darryl H Hwang
+  - Xiaomeng Lei
+  - Bhushan Desai
+  - Christopher Lau
+  - Lindsay L Yang
+  - Austin J Fullenkamp
+  - Simin Hajian
+  - Marielena Rivas
+  - Megha Nayyar Gupta
+  - Brian D Quinn
+  - Manju Aron
+  - Mihir M Desai
+  - Monish Aron
+  - Assad A Oberai
+  - Inderbir S Gill
+  - Vinay A Duddalwar
+  publisher: European radiology
+  date: '2020-08-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32803417
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32356484
+  title: Deep learning based classification of solid lipid-poor contrast enhancing
+    renal masses using contrast enhanced CT.
+  authors:
+  - Assad Oberai
+  - Bino Varghese
+  - Steven Cen
+  - Tomas Angelini
+  - Darryl Hwang
+  - Inderbir Gill
+  - Manju Aron
+  - Christopher Lau
+  - Vinay Duddalwar
+  publisher: The British journal of radiology
+  date: '2020-05-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32356484
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31222919
+  title: 'Reliability of CT-based texture features: Phantom study.'
+  authors:
+  - Bino A Varghese
+  - Darryl Hwang
+  - Steven Y Cen
+  - Joshua Levy
+  - Derek Liu
+  - Christopher Lau
+  - Marielena Rivas
+  - Bhushan Desai
+  - David J Goodenough
+  - Vinay A Duddalwar
+  publisher: Journal of applied clinical medical physics
+  date: '2019-06-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31222919
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30733585
+  title: Objective risk stratification of prostate cancer using machine learning and
+    radiomics applied to multiparametric magnetic resonance images.
+  authors:
+  - Bino Varghese
+  - Frank Chen
+  - Darryl Hwang
+  - Suzanne L Palmer
+  - Andre Luis De Castro Abreu
+  - Osamu Ukimura
+  - Monish Aron
+  - Manju Aron
+  - Inderbir Gill
+  - Vinay Duddalwar
+  - Gaurav Pandey
+  publisher: Scientific reports
+  date: '2019-02-07'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30733585
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30645163
+  title: 'Texture Analysis of Imaging: What Radiologists Need to Know.'
+  authors:
+  - Bino A Varghese
+  - Steven Y Cen
+  - Darryl H Hwang
+  - Vinay A Duddalwar
+  publisher: AJR. American journal of roentgenology
+  date: '2019-01-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30645163
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30620678
+  title: Radiomics in Pulmonary Lesion Imaging.
+  authors:
+  - Cameron Hassani
+  - Bino A Varghese
+  - Jorge Nieva
+  - Vinay Duddalwar
+  publisher: AJR. American journal of roentgenology
+  date: '2019-01-08'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30620678
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30506142
+  title: Juxtatumoral perinephric fat analysis in clear cell renal cell carcinoma.
+  authors:
+  - Tania S Gill
+  - Bino A Varghese
+  - Darryl H Hwang
+  - Steven Y Cen
+  - Manju Aron
+  - Monish Aron
+  - Vinay A Duddalwar
+  publisher: Abdominal radiology (New York)
+  date: '2019-04-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30506142
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30240299
+  title: 'Differentiation of Predominantly Solid Enhancing Lipid-Poor Renal Cell Masses
+    by Use of Contrast-Enhanced CT: Evaluating the Role of Texture in Tumor Subtyping.'
+  authors:
+  - Bino A Varghese
+  - Frank Chen
+  - Darryl H Hwang
+  - Steven Y Cen
+  - Bhushan Desai
+  - Inderbir S Gill
+  - Vinay A Duddalwar
+  publisher: AJR. American journal of roentgenology
+  date: '2018-09-21'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30240299
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30022220
+  title: 'Computed tomography-based texture analysis of bladder cancer: differentiating
+    urothelial carcinoma from micropapillary carcinoma.'
+  authors:
+  - Ting-Wei Fan
+  - Harshawn Malhi
+  - Bino Varghese
+  - Steve Cen
+  - Darryl Hwang
+  - Manju Aron
+  - Nieroshan Rajarubendra
+  - Mihir Desai
+  - Vinay Duddalwar
+  publisher: Abdominal radiology (New York)
+  date: '2019-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30022220
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29980960
+  title: A Decision-Support Tool for Renal Mass Classification.
+  authors:
+  - Gautam Kunapuli
+  - Bino A Varghese
+  - Priya Ganapathy
+  - Bhushan Desai
+  - Steven Cen
+  - Manju Aron
+  - Inderbir Gill
+  - Vinay Duddalwar
+  publisher: Journal of digital imaging
+  date: '2018-12-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29980960
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29899503
+  title: Avian tail ontogeny, pygostyle formation, and interpretation of juvenile
+    Mesozoic specimens.
+  authors:
+  - Dana J Rashid
+  - Kevin Surya
+  - Luis M Chiappe
+  - Nathan Carroll
+  - Kimball L Garrett
+  - Bino Varghese
+  - Alida Bailleul
+  - Jingmai K O'Connor
+  - Susan C Chapman
+  - John R Horner
+  publisher: Scientific reports
+  date: '2018-06-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29899503
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29888982
+  title: Differentiating solid, non-macroscopic fat containing, enhancing renal masses
+    using fast Fourier transform analysis of multiphase CT.
+  authors:
+  - Bino A Varghese
+  - Frank Chen
+  - Darryl H Hwang
+  - Steven Y Cen
+  - Inderbir S Gill
+  - Vinay A Duddalwar
+  publisher: The British journal of radiology
+  date: '2018-06-21'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29888982
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29742600
+  title: Incidental Detection of Meningioma by 18F-FMAU PET/CT in a Patient With Suspected
+    Prostate Cancer.
+  authors:
+  - Bino Varghese
+  - Erik Velez
+  - Bhushan Desai
+  - Hossein Jadvar
+  publisher: Clinical nuclear medicine
+  date: '2018-07-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29742600
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29400695
+  title: Claudin-18-mediated YAP activity regulates lung stem and progenitor cell
+    homeostasis and tumorigenesis.
+  authors:
+  - Beiyun Zhou
+  - Per Flodby
+  - Jiao Luo
+  - Dan R Castillo
+  - Yixin Liu
+  - Fa-Xing Yu
+  - Alicia McConnell
+  - Bino Varghese
+  - Guanglei Li
+  - Nyam-Osor Chimge
+  - Mitsuhiro Sunohara
+  - Michael N Koss
+  - Wafaa Elatre
+  - Peter Conti
+  - Janice M Liebler
+  - Chenchen Yang
+  - Crystal N Marconett
+  - Ite A Laird-Offringa
+  - Parviz Minoo
+  - Kunliang Guan
+  - Barry R Stripp
+  - Edward D Crandall
+  - Zea Borok
+  publisher: The Journal of clinical investigation
+  date: '2018-02-05'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29400695
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29305199
+  title: Quantitative Contour Analysis as an Image-based Discriminator Between Benign
+    and Malignant Renal Tumors.
+  authors:
+  - Felix Y Yap
+  - Darryl H Hwang
+  - Steven Y Cen
+  - Bino A Varghese
+  - Bhushan Desai
+  - Brian D Quinn
+  - Megha Nayyar Gupta
+  - Nieroshan Rajarubendra
+  - Mihir M Desai
+  - Manju Aron
+  - Gangning Liang
+  - Monish Aron
+  - Inderbir S Gill
+  - Vinay A Duddalwar
+  publisher: Urology
+  date: '2018-01-02'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29305199
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:28585336
+  title: Liver-Directed Human Amniotic Epithelial Cell Transplantation Improves Systemic
+    Disease Phenotype in Hurler Syndrome Mouse Model.
+  authors:
+  - Natalie S Rodriguez
+  - Lisa Yanuaria
+  - Kevin Murphy R Parducho
+  - Irving M Garcia
+  - Bino A Varghese
+  - Brendan H Grubbs
+  - Toshio Miki
+  publisher: Stem cells translational medicine
+  date: '2017-06-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28585336
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:27595574
+  title: 'Voxel-based whole-lesion enhancement parameters: a study of its clinical
+    value in differentiating clear cell renal cell carcinoma from renal oncocytoma.'
+  authors:
+  - Frank Chen
+  - Mittul Gulati
+  - Darryl Hwang
+  - Steven Cen
+  - Felix Yap
+  - Chidubem Ugwueze
+  - Bino Varghese
+  - Mihir Desai
+  - Manju Aron
+  - Inderbir Gill
+  - Vinay Duddalwar
+  publisher: Abdominal radiology (New York)
+  date: '2017-02-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/27595574
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:22036909
+  title: Development of quantitative computed-tomography-based strength indicators
+    for the identification of low bone-strength individuals in a clinical environment.
+  authors:
+  - Bino Varghese
+  - David Short
+  - Thomas Hangartner
+  publisher: Bone
+  date: '2011-10-19'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/22036909
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:21288523
+  title: Computed-tomography-based finite-element models of long bones can accurately
+    capture strain response to bending and torsion.
+  authors:
+  - Bino Varghese
+  - David Short
+  - Ravi Penmetsa
+  - Tarun Goswami
+  - Thomas Hangartner
+  publisher: Journal of biomechanics
+  date: '2011-02-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21288523
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: doi:10.1016/j.heliyon.2024.e36728
   title: Prediction of future dementia among patients with mild cognitive impairment
     (MCI) by integrating multimodal clinical data
