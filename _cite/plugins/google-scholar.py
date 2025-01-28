@@ -12,19 +12,6 @@ def main(entry):
     # get api key (serp api key to access google scholar)
     api_key = "e9dbc6276c9333fc24641b295d41b6ebb451073846de103291ea79c6c1aeb700" #VERY FLAWED
     #os.environ.get("GOOGLE_SCHOLAR_API_KEY", "")
-    import os
-from serpapi import GoogleSearch
-from util import *
-
-
-def main(entry):
-    """
-    receives single list entry from google-scholar data file
-    returns list of sources to cite
-    """
-
-    # get api key (serp api key to access google scholar)
-    api_key = os.environ.get("GOOGLE_SCHOLAR_API_KEY", "")
     if not api_key:
         raise Exception('No "GOOGLE_SCHOLAR_API_KEY" env var')
 
