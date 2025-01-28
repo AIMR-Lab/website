@@ -1,8 +1,8 @@
 ---
-name: Shubham Gujar
-image: images/Shubham_Gujar.png
+name: Emily Parker
+image: images/Emily_Parker.jpg
 description: Reasearh Asssistant
-role: programmer
+role: undergrad
 links:
   twitter: sarahjohnson
 ---
