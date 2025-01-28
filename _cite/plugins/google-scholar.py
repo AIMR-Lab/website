@@ -12,6 +12,19 @@ def main(entry):
     # get api key (serp api key to access google scholar)
     api_key = "e9dbc6276c9333fc24641b295d41b6ebb451073846de103291ea79c6c1aeb700" #VERY FLAWED
     #os.environ.get("GOOGLE_SCHOLAR_API_KEY", "")
+    import os
+from serpapi import GoogleSearch
+from util import *
+
+
+def main(entry):
+    """
+    receives single list entry from google-scholar data file
+    returns list of sources to cite
+    """
+
+    # get api key (serp api key to access google scholar)
+    api_key = os.environ.get("GOOGLE_SCHOLAR_API_KEY", "")
     if not api_key:
         raise Exception('No "GOOGLE_SCHOLAR_API_KEY" env var')
 
@@ -40,38 +53,23 @@ def main(entry):
     sources = []
 
     # go through response and format sources
-    # Go through response and format sources
     for work in response:
+        # create source
         year = get_safe(work, "year", "")
-        try:
-            source = {
-                "id": get_safe(work, "citation_id", ""),
-                "title": get_safe(work, "title", ""),
-                "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
-                "publisher": get_safe(work, "publication", ""),
-                "date": (year + "-01-01") if year else "",
-                "link": get_safe(work, "link", ""),
-            }
+        source = {
+            "id": get_safe(work, "citation_id", ""),
+            # api does not provide Manubot-citeable id, so keep citation details
+            "title": get_safe(work, "title", ""),
+            "authors": list(map(str.strip, get_safe(work, "authors", "").split(","))),
+            "publisher": get_safe(work, "publication", ""),
+            "date": (year + "-01-01") if year else "",
+            "link": get_safe(work, "link", ""),
+        }
 
-            # Ensure Manubot-citeable id is present
-            if not source["id"].startswith(("doi:", "pubmed:", "arxiv:", "pmc:")):
-                raise NotImplementedError("Manubot cannot generate a csl_item for this id.")
+        # copy fields from entry to source
+        source.update(entry)
 
-            # Add source to the list
-            sources.append(source)
+        # add source to list
+        sources.append(source)
 
-        except NotImplementedError:
-            # Fallback: Generate a simplified citation directly from metadata
-            fallback_source = {
-                "id": get_safe(work, "citation_id", ""),
-                "title": get_safe(work, "title", "Unknown Title"),
-                "authors": list(map(str.strip, get_safe(work, "authors", "Unknown Authors").split(","))),
-                "publisher": get_safe(work, "publication", "Unknown Publisher"),
-                "date": (year + "-01-01") if year else "",
-                "link": get_safe(work, "link", ""),
-                "description": "This citation was generated directly from Google Scholar metadata.",
-            }
-            print(f"Using fallback for non-standard citation: {fallback_source['id']}")
-            sources.append(fallback_source)
-    print(sources)
     return sources
