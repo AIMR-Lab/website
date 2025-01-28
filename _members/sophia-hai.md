@@ -1,8 +1,8 @@
 ---
-name: Shubham Gujar
-image: images/Shubham_Gujar.png
+name: Sophia Hai
+image: images/Sophia_Hai.png
 description: Reasearh Asssistant
-role: programmer
+role: undergrad
 links:
   twitter: sarahjohnson
 ---
