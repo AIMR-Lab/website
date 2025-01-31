@@ -1,7 +1,6 @@
 # site properties and page defaults
-title: Artificial Intelligence in Medical Radiology Lab
+title: The AIMR Lab
 subtitle: Keck School of Medicine
-subtitle: Principle Investigator - Bino A. Varghese, PhD
 description: Using machine learning and radiomics to retrive insights from radiology report data.
 header: images/background.jpg
 footer: images/background.jpg

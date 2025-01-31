@@ -1,15 +1,9 @@
 ---
 ---
 
-# AI for Medical Radiology 
+# Artificial Intelligence in Medical Radiology Lab
+## Principle Investigator: Bino A. Varghese, PhD
 
-Using machine learning and radiomics to retrive insights from radiology report data.
-
-{% include section.html %}
-
-## Highlights
-
-{% capture text %}
 
 Our lab develops algorithms and models to improve medicine for patients and healthcare professionals. 
 
@@ -28,6 +22,14 @@ Key areas of research include:
 We are always looking for motivated graduate and undergraduate students to join our lab. If you are interested to work on these exciting research field, feel free to contact Dr. Bino Varghese at bino.varghese@med.usc.edu
 
 *The Artificial Intelligence in Medical Radiology Lab is located in NTT 4425.*
+
+{% include section.html %}
+
+## Highlights
+
+{% capture text %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
   include button.html
