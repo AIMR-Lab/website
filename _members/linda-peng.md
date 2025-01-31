@@ -1,6 +1,6 @@
 ---
 name: Linda Peng
-image: images/Linda_Peng.jpg
+image: images/Linda_Peng.png
 description: Reasearh Asssistant (MS Applied Data Science 2025)
 role: programmer
 links:
