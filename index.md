@@ -11,7 +11,23 @@ Using machine learning and radiomics to retrive insights from radiology report d
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our lab develops algorithms and models to improve medicine for patients and healthcare professionals. 
+
+Key areas of research include:
+
+- **AI Solutions for Medical Imaging**: Develop advanced AI models for tasks such as image analysis and the creation of imaging signatures aimed at precise diagnoses and predictive modeling across various diseases.
+
+- **Machine Learning Implementation**: Design and implement traditional and deep learning techniques to enhance the accuracy of multimodal medical imaging and patient diagnostics. Some areas of focus include self-supervised and semi-supervised machine learning frameworks to address challenges in medical imaging, such as disease diversity.
+
+- **Neuroimaging and Cancer Imaging**: Advance the understanding of conditions like Alzheimer's disease, schizophrenia, and Glioblastoma, with a focus on brain texture analysis and radiogenomic markers.
+
+- **Innovative Research in Eye Tracking**: Explore the use of eye blink metrics as non-invasive measures of cognitive and physiological states in eye tracking studies.
+
+- **Reliability assessment in medical tools**: Explore the challenges, and solutions for achieving consistent and reliable quantitative imaging results across various platforms, clinical environments, and time periods.
+
+We are always looking for motivated graduate and undergraduate students to join our lab. If you are interested to work on these exciting research field, feel free to contact Dr. Bino Varghese at bino.varghese@med.usc.edu
+
+*The Artificial Intelligence in Medical Radiology Lab is located in NTT 4425.*
 
 {%
   include button.html
