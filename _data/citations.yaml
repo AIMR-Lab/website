@@ -31,6 +31,23 @@
   term: Bino Varghese[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:39281465
+  title: Prediction of future dementia among patients with mild cognitive impairment
+    (MCI) by integrating multimodal clinical data.
+  authors:
+  - Andrew Cirincione
+  - Kirsten Lynch
+  - Jamie Bennett
+  - Jeiran Choupan
+  - Bino Varghese
+  - Nasim Sheikh-Bahaei
+  - Gaurav Pandey
+  publisher: Heliyon
+  date: '2024-08-22'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39281465
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39217355
   title: 'Deep learning for the harmonization of structural MRI scans: a survey.'
   authors:
@@ -357,6 +374,53 @@
   term: Bino Varghese[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:35040103
+  title: Characterizing breast masses using an integrative framework of machine learning
+    and CEUS-based radiomics.
+  authors:
+  - Bino A Varghese
+  - Sandy Lee
+  - Steven Cen
+  - Amir Talebi
+  - Passant Mohd
+  - Daniel Stahl
+  - Melissa Perkins
+  - Bhushan Desai
+  - Vinay A Duddalwar
+  - Linda H Larsen
+  publisher: Journal of ultrasound
+  date: '2022-01-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35040103
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:34757449
+  title: CT-based radiomics stratification of tumor grade and TNM stage of clear cell
+    renal cell carcinoma.
+  authors:
+  - Natalie L Demirjian
+  - Bino A Varghese
+  - Steven Y Cen
+  - Darryl H Hwang
+  - Manju Aron
+  - Imran Siddiqui
+  - Brandon K K Fields
+  - Xiaomeng Lei
+  - Felix Y Yap
+  - Marielena Rivas
+  - Sharath S Reddy
+  - Haris Zahoor
+  - Derek H Liu
+  - Mihir Desai
+  - Suhn K Rhie
+  - Inderbir S Gill
+  - Vinay Duddalwar
+  publisher: European radiology
+  date: '2021-11-10'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/34757449
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:34545475
   title: Benchmarking Various Radiomic Toolkit Features While Applying the Image Biomarker
     Standardization Initiative toward Clinical Translation of Radiomic Analysis.
@@ -518,6 +582,38 @@
   publisher: The British journal of radiology
   date: '2020-05-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/32356484
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32163847
+  title: 'Quantitative magnetic resonance imaging (q-MRI) for the assessment of soft-tissue
+    sarcoma treatment response: a narrative case review of technique development.'
+  authors:
+  - Brandon K K Fields
+  - Darryl Hwang
+  - Steven Cen
+  - Bhushan Desai
+  - Mittul Gulati
+  - James Hu
+  - Vinay Duddalwar
+  - Bino Varghese
+  - George R Matcuk
+  publisher: Clinical imaging
+  date: '2020-02-28'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32163847
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31799865
+  title: Myocardial Radiomics in Cardiac MRI.
+  authors:
+  - Cameron Hassani
+  - Farhood Saremi
+  - Bino A Varghese
+  - Vinay Duddalwar
+  publisher: AJR. American journal of roentgenology
+  date: '2019-12-04'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31799865
   term: Bino Varghese[Author]
   plugin: pubmed.py
   file: pubmed.yaml
@@ -801,6 +897,47 @@
   term: Bino Varghese[Author]
   plugin: pubmed.py
   file: pubmed.yaml
+- id: pubmed:26234763
+  title: Truncating mutation in the autophagy gene UVRAG confers oncogenic properties
+    and chemosensitivity in colorectal cancers.
+  authors:
+  - Shanshan He
+  - Zhen Zhao
+  - Yongfei Yang
+  - Douglas O'Connell
+  - Xiaowei Zhang
+  - Soohwan Oh
+  - Binyun Ma
+  - Joo-Hyung Lee
+  - Tian Zhang
+  - Bino Varghese
+  - Janae Yip
+  - Sara Dolatshahi Pirooz
+  - Ming Li
+  - Yong Zhang
+  - Guo-Min Li
+  - Sue Ellen Martin
+  - Keigo Machida
+  - Chengyu Liang
+  publisher: Nature communications
+  date: '2015-08-03'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26234763
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:25226269
+  title: A microfluidic technique to probe cell deformability.
+  authors:
+  - David J Hoelzle
+  - Bino A Varghese
+  - Clara K Chan
+  - Amy C Rowat
+  publisher: 'Journal of visualized experiments : JoVE'
+  date: '2014-09-03'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25226269
+  term: Bino Varghese[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:22036909
   title: Development of quantitative computed-tomography-based strength indicators
     for the identification of low bone-strength individuals in a clinical environment.
@@ -959,3 +1096,61 @@
   orcid: 0000-0002-0508-2899
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1371/journal.pcbi.1007128
+  title: Open collaborative writing with Manubot
+  authors:
+  - Daniel S. Himmelstein
+  - Vincent Rubinetti
+  - David R. Slochower
+  - Dongbo Hu
+  - Venkat S. Malladi
+  - Casey S. Greene
+  - Anthony Gitter
+  publisher: PLOS Computational Biology
+  date: '2020-12-04'
+  link: https://doi.org/c7np
+  type: paper
+  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: manubot
+    link: https://greenelab.github.io/meta-review/
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  repo: greenelab/meta-review
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.csbj.2020.05.017
+  title: Constructing knowledge graphs and their biomedical applications
+  authors:
+  - David N. Nicholson
+  - Casey S. Greene
+  publisher: Computational and Structural Biotechnology Journal
+  date: '2020-01-01'
+  link: https://doi.org/gg7m48
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.7554/eLife.32822
+  title: Sci-Hub provides access to nearly all scholarly literature
+  authors:
+  - Daniel S Himmelstein
+  - Ariel Rodriguez Romero
+  - Jacob G Levernier
+  - Thomas Anthony Munro
+  - Stephen Reid McLaughlin
+  - Bastian Greshake Tzovaras
+  - Casey S Greene
+  publisher: eLife
+  date: '2018-03-01'
+  link: https://doi.org/ckcj
+  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  plugin: sources.py
+  file: sources.yaml
