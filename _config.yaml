@@ -1,6 +1,6 @@
 # site properties and page defaults
 title: The AIMR Lab
-subtitle: Keck School of Medicine 
+subtitle: Keck School of Medicine
 description: Using machine learning and radiomics to retrive insights from radiology report data.
 header: images/background.jpg
 footer: images/background.jpg
@@ -8,7 +8,6 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@AIMR-Lab.com
   orcid: 0000-0001-8713-9213
   google-scholar: gD0AIZAAAAAJ
   github: AIMR-Lab
