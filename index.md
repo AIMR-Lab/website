@@ -29,7 +29,7 @@ We are always looking for motivated graduate and undergraduate students to join 
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We use data science to answer important questions in biology and medicine. In all of our research, we prioritize transparency, rigor, and reproducibility.
 
 {%
   include button.html
@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our lab is a collective of computational research investigators. We like to perform ambitious research, but operate in a fun, collaborative, and team-oriented environment, and we are strongly committed to mentoring young scientists through internship schemes.
 
 {%
   include button.html
