@@ -1,47 +1,33 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: DL-based Automated Lesion Segmentation
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/project1.png
+  description: Pre-trained U-Net models with EfficientNetB0, VGG16, and DenseNet121 backbones were fine-tuned on a large dataset of CEM images with separate validation and independent testing sets, and evaluated using IoU and Dice scores over multiple training epochs.
   tags:
     - resource
     - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Radiomics-based Automated Hotspot Segmentation
+  group: featured
+  image: images/project2.png
+  description: A novel TVHC approach leveraging radiomic skewness masks, morphological operations, and chest wall segmentation on annotated mammograms to detect hotspots, with classification performed using multiple deep learning models and AUROC-based performance comparisons.
   tags:
-    - software
+    - resource
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: MRI (Super Resolution)
+  image: images/project3.png
+  description: A novel deep learning framework leveraging multi-scale CNN architectures and adversarial training to reconstruct high-resolution MRI images from low-resolution inputs, with enhanced feature fusion and perceptual loss optimization, and performance validated using quantitative metrics.
   tags:
-    - software
+    - resource
+    - publication
+
+- title: CEUS Motion Compensation
+  image: images/project4.png
+  description:  A novel deep learning framework leveraging spatio-temporal modeling and optical flow estimation to correct for motion artifacts in contrast-enhanced ultrasound imaging, enhancing image clarity and diagnostic reliability.
+  tags:
+    - research
+
+- title: Early AD Detection
+  image: images/project5.png
+  description: A novel multimodal deep learning framework integrating MRI-based neuroimaging with retinal biomarker analysis to facilitate early Alzheimer’s diagnosis through advanced feature extraction and fusion techniques.
+  tags:
+    - research

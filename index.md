@@ -44,7 +44,7 @@ We use data science to answer important questions in biology and medicine. In al
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/researchimage.png"
   link="research"
   title="Our Research"
   text=text
@@ -52,7 +52,7 @@ We use data science to answer important questions in biology and medicine. In al
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Discover our cutting-edge imaging research.
 
 {%
   include button.html
@@ -67,7 +67,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/project.png"
   link="projects"
   title="Our Projects"
   flip=true
