@@ -1,7 +1,7 @@
 ---
 name: Dighvijay Giri
 image: images/Dighvijay_Giri_Photo.JPG
-description: Reasearch Asssistant (MS ECE 2023)
+description: Research Assistant (MS ECE 2023)
 role: programmer
 links:
   github: dighvijay
