@@ -1,7 +1,7 @@
 ---
 name: Shubham Gujar
 image: images/Shubham_Gujar.png
-description: Reasearh Asssistant
+description: Reasearch Asssistant
 role: programmer
 links:
   twitter: sarahjohnson

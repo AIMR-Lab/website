@@ -1,7 +1,7 @@
 ---
 name: Jaque Fields
 image: images/Jacque_Fields.png
-description: Reasearh Asssistant
+description: Reasearch Asssistant
 role: undergrad
 links:
   twitter: sarahjohnson

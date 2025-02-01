@@ -1,7 +1,7 @@
 ---
 name: Linda Peng
 image: images/Linda_Peng.png
-description: Reasearh Asssistant (MS Applied Data Science 2025)
+description: Reasearch Asssistant (MS Applied Data Science 2025)
 role: programmer
 links:
   email: yunlinpe@usc.edu

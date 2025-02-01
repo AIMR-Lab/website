@@ -1,7 +1,7 @@
 ---
 name: Ketki Kinkar
 image: images/Ketki_Kinkar_Photo.jpeg
-description: Reasearh Asssistant (MS Applied Data Science 2024)
+description: Reasearch Asssistant (MS Applied Data Science 2024)
 role: programmer
 links:
   email: kinkar@usc.edu
