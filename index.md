@@ -2,7 +2,7 @@
 ---
 
 # Artificial Intelligence in Medical Radiology Lab
-## Principle Investigator: Bino A. Varghese, PhD
+## Principal Investigator: Bino A. Varghese, PhD
 
 
 Our lab develops algorithms and models to improve medicine for patients and healthcare professionals. 
@@ -92,7 +92,7 @@ Our lab is a collective of computational research investigators. We like to perf
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.jpeg"
   link="team"
   title="Our Team"
   text=text
