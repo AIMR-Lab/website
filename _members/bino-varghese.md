@@ -1,8 +1,8 @@
 ---
 name: Bino Varghese
 image: images/Bino_Varghese.jpg
-role: pi
-affiliation: University of Southern California
+role: principal-investigator
+affiliation: Principal Investigator
 links:
   google-scholar: https://scholar.google.com/citations?user=gD0AIZAAAAAJ&hl=en&oi=ao
   orcid: 0000-0002-0508-2899
