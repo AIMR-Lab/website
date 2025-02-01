@@ -1,7 +1,7 @@
 ---
 name: Emily Parker
 image: images/Emily_Parker.jpg
-description: Reasearh Asssistant (BS, 2028)
+description: Reasearch Asssistant (BS, 2028)
 role: undergrad
 links:
   email: emparker@usc.edu
