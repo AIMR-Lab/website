@@ -92,7 +92,7 @@ Our lab is a collective of computational research investigators. We like to perf
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.jpeg"
   link="team"
   title="Our Team"
   text=text
