@@ -1,19 +1,17 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
-  <a
-    {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
-    {% endif %}
-    aria-label="{{ include.title | default: "card link" | regex_strip }}"
-    class="card-image"
-  >
-    <img
-      src="{{ include.image | relative_url | uri_escape }}"
-      alt="{{ include.title | default: "card image" | regex_strip }}"
-      loading="lazy"
-      {% include fallback.html %}
+  {% if include.image %}
+    <a
+      href="{{ include.image | relative_url }}"
+      data-lightbox="project-gallery"
+      data-title="{{ include.title }}"
     >
-  </a>
+      <img
+        src="{{ include.image | relative_url }}"
+        alt="{{ include.title }}"
+      >
+    </a>
+  {% endif %}
 
   <div class="card-text">
     {% if include.title %}
