@@ -2,7 +2,7 @@
 title: Jobs
 nav:
   order: 5
-  tooltip: Musings and miscellany
+  tooltip: Join our Team
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Open Roles

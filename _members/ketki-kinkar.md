@@ -1,5 +1,5 @@
 ---
-name: Ketki Kinkar
+name: Ketki K Kinkar
 image: images/Ketki_Kinkar_Photo.jpeg
 description: Research Assistant (MS Applied Data Science 2024)
 role: programmer
