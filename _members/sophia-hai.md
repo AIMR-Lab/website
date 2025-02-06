@@ -1,7 +1,7 @@
 ---
 name: Sophia Hai
 image: images/Sophia_Hai.jpg
-description: Reasearch Asssistant (BS, 2025 & MPH, 2026)
+description: Research Assistant (BS, 2025 & MPH, 2026)
 role: undergrad
 links:
   email: sihai@usc.edu
