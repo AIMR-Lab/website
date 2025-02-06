@@ -20,6 +20,6 @@ The Artificial Intelligence in Medical Radiology Lab is located in NTT 4425
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://events.usc.edu/assets/docs/USC-HSC-Map-2022.pdf"
+  link="https://maps.usc.edu/?id=1928#!ct/53722,53723,55414,55415,55418?m/556826?s/no"
 %}
 

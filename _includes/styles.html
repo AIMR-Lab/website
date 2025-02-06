@@ -1,9 +1,11 @@
 <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+
 <link 
   href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
   rel="stylesheet"
 />
+
 
 <!-- include all sass in styles folder -->
 {% assign styles = site.pages
@@ -26,3 +28,8 @@
 {% for style in styles %}
   <link href="{{ style.path | relative_url }}" rel="stylesheet" />
 {% endfor %}
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+/>
