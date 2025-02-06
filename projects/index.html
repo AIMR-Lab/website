@@ -101,7 +101,9 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+
 <link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
 
 <!-- include all sass in styles folder -->
 
@@ -345,10 +347,14 @@
 
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js">
+</script>
 
 <!-- include all js in scripts folder -->
 
@@ -430,7 +436,7 @@
       
     
       
-        <a href="/website/jobs/" data-tooltip="Musings and miscellany">
+        <a href="/website/jobs/" data-tooltip="Join our Team">
           Jobs
         </a>
       
@@ -465,8 +471,7 @@
     <h1 id="projects">
 <i class="icon fa-solid fa-wrench"></i>Projects</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>Our lab harnesses advanced deep learning and image processing techniques to push the boundaries of medical diagnostics. Through multidisciplinary projects, we develop cutting-edge solutions that enhance image quality, automate feature detection, and improve early disease diagnosis, paving the way for smarter, more accurate clinical decision-making.</p>
 
 <div class="tags" data-link="/website/projects/">
     
@@ -501,24 +506,24 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <h2 id="featured">Featured</h2>
 
 <div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Dataset" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Dataset" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/project1.png" data-lightbox="project-gallery" data-title="DL-based Automated Lesion Segmentation">
+      <img src="/website/images/project1.png" alt="DL-based Automated Lesion Segmentation">
+    </a>
+  
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Dataset
+      <a class="card-title">
+        DL-based Automated Lesion Segmentation
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
-    
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Pre-trained U-Net models with EfficientNetB0, VGG16, and DenseNet121 backbones were fine-tuned on a large dataset of CEM images with separate validation and independent testing sets, and evaluated using IoU and Dice scores over multiple training epochs.
 
       </p>
     
@@ -527,10 +532,14 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/projects/">
+  <div class="tags" data-link="/website/projects/">
     
       <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
+      </a>
+    
+      <a href="/projects/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
       </a>
     
   </div>
@@ -541,24 +550,24 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 
 <div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Package" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/project2.png" data-lightbox="project-gallery" data-title="Radiomics-based Automated Hotspot Segmentation">
+      <img src="/website/images/project2.png" alt="Radiomics-based Automated Hotspot Segmentation">
+    </a>
+  
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Package
+      <a class="card-title">
+        Radiomics-based Automated Hotspot Segmentation
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
-    
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        A novel TVHC approach leveraging radiomic skewness masks, morphological operations, and chest wall segmentation on annotated mammograms to detect hotspots, with classification performed using multiple deep learning models and AUROC-based performance comparisons.
 
       </p>
     
@@ -567,7 +576,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/projects/">
+  <div class="tags" data-link="/website/projects/">
     
       <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
@@ -595,24 +604,24 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <h2 id="more">More</h2>
 
 <div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Tutorial" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/project3.png" data-lightbox="project-gallery" data-title="MRI (Super Resolution)">
+      <img src="/website/images/project3.png" alt="MRI (Super Resolution)">
+    </a>
+  
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Tutorial
+      <a class="card-title">
+        MRI (Super Resolution)
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
-    
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        A novel deep learning framework leveraging multi-scale CNN architectures and adversarial training to reconstruct high-resolution MRI images from low-resolution inputs, with enhanced feature fusion and perceptual loss optimization, and performance validated using quantitative metrics.
 
       </p>
     
@@ -621,7 +630,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/projects/">
+  <div class="tags" data-link="/website/projects/">
     
       <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
@@ -639,24 +648,24 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 
 <div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web App" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/project4.png" data-lightbox="project-gallery" data-title="CEUS Motion Compensation">
+      <img src="/website/images/project4.png" alt="CEUS Motion Compensation">
+    </a>
+  
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Web App
+      <a class="card-title">
+        CEUS Motion Compensation
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
-    
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        A novel deep learning framework leveraging spatio-temporal modeling and optical flow estimation to correct for motion artifacts in contrast-enhanced ultrasound imaging, enhancing image clarity and diagnostic reliability.
 
       </p>
     
@@ -665,10 +674,10 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/projects/">
+  <div class="tags" data-link="/website/projects/">
     
-      <a href="/projects/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="/projects/?search=%22tag:%20research%22" class="tag" data-tooltip='Show items with the tag "research"'>
+        research
       </a>
     
   </div>
@@ -679,24 +688,24 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 
 <div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web Server" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/project5.png" data-lightbox="project-gallery" data-title="Early AD Detection">
+      <img src="/website/images/project5.png" alt="Early AD Detection">
+    </a>
+  
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Web Server
+      <a class="card-title">
+        Early AD Detection
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
-    
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        A novel multimodal deep learning framework integrating MRI-based neuroimaging with retinal biomarker analysis to facilitate early Alzheimer’s diagnosis through advanced feature extraction and fusion techniques.
 
       </p>
     
@@ -705,10 +714,10 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/projects/">
+  <div class="tags" data-link="/website/projects/">
     
-      <a href="/projects/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="/projects/?search=%22tag:%20research%22" class="tag" data-tooltip='Show items with the tag "research"'>
+        research
       </a>
     
   </div>
@@ -792,5 +801,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js">
+</script>
   </body>
 </html>

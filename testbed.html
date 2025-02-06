@@ -101,7 +101,9 @@
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+
 <link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
 
 <!-- include all sass in styles folder -->
 
@@ -375,10 +377,14 @@
 
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js">
+</script>
 
 <!-- include all js in scripts folder -->
 
@@ -461,7 +467,7 @@
       
     
       
-        <a href="/website/jobs/" data-tooltip="Musings and miscellany">
+        <a href="/website/jobs/" data-tooltip="Join our Team">
           Jobs
         </a>
       
@@ -1038,8 +1044,10 @@ It was the spring of hope, it was the winter of despair.</p>
 <h2 id="feature">Feature</h2>
 
 <div class="feature">
-  <a href="/website/team" class="feature-image" aria-label="Title">
-    <img src="/website/images/icon.png" loading="lazy" alt="Title" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
+  <a href="/website/images/icon.png" data-lightbox="feature-gallery" data-title="Title" class="feature-image">
+    <img src="/website/images/icon.png" loading="lazy" alt="Title">
+    onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;"
+
   </a>
   <div class="feature-text">
     
@@ -1052,8 +1060,10 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="feature" data-flip="">
-  <a class="feature-image" aria-label="Title">
-    <img src="/website/images/icon.png" loading="lazy" alt="Title" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
+  <a href="/website/images/icon.png" data-lightbox="feature-gallery" data-title="Title" class="feature-image">
+    <img src="/website/images/icon.png" loading="lazy" alt="Title">
+    onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;"
+
   </a>
   <div class="feature-text">
     
@@ -1066,8 +1076,10 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="feature">
-  <a href="/website/team" class="feature-image" aria-label="feature link">
-    <img src="" loading="lazy" alt="feature image" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
+  <a href="" data-lightbox="feature-gallery" data-title="Feature Image" class="feature-image">
+    <img src="" loading="lazy" alt="feature image">
+    onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;"
+
   </a>
   <div class="feature-text">
     
@@ -2919,24 +2931,24 @@ It was the spring of hope, it was the winter of despair.</p>
 <h3 id="list-projects">List projects</h3>
 
 <div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Dataset" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Dataset" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/project1.png" data-lightbox="project-gallery" data-title="DL-based Automated Lesion Segmentation">
+      <img src="/website/images/project1.png" alt="DL-based Automated Lesion Segmentation">
+    </a>
+  
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Dataset
+      <a class="card-title">
+        DL-based Automated Lesion Segmentation
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
-    
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Pre-trained U-Net models with EfficientNetB0, VGG16, and DenseNet121 backbones were fine-tuned on a large dataset of CEM images with separate validation and independent testing sets, and evaluated using IoU and Dice scores over multiple training epochs.
 
       </p>
     
@@ -2945,87 +2957,7 @@ It was the spring of hope, it was the winter of despair.</p>
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/">
-    
-      <a href="/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Package" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Package
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/">
-    
-      <a href="/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Tutorial" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Tutorial
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/">
+  <div class="tags" data-link="/website/">
     
       <a href="/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
         resource
@@ -3043,24 +2975,24 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Web App" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/project2.png" data-lightbox="project-gallery" data-title="Radiomics-based Automated Hotspot Segmentation">
+      <img src="/website/images/project2.png" alt="Radiomics-based Automated Hotspot Segmentation">
+    </a>
+  
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Web App
+      <a class="card-title">
+        Radiomics-based Automated Hotspot Segmentation
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
-    
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        A novel TVHC approach leveraging radiomic skewness masks, morphological operations, and chest wall segmentation on annotated mammograms to detect hotspots, with classification performed using multiple deep learning models and AUROC-based performance comparisons.
 
       </p>
     
@@ -3069,10 +3001,10 @@ It was the spring of hope, it was the winter of despair.</p>
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/">
+  <div class="tags" data-link="/website/">
     
-      <a href="/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+        resource
       </a>
     
   </div>
@@ -3083,24 +3015,24 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Web Server" class="card-image">
-    <img src="/website/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/project3.png" data-lightbox="project-gallery" data-title="MRI (Super Resolution)">
+      <img src="/website/images/project3.png" alt="MRI (Super Resolution)">
+    </a>
+  
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Web Server
+      <a class="card-title">
+        MRI (Super Resolution)
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
-    
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        A novel deep learning framework leveraging multi-scale CNN architectures and adversarial training to reconstruct high-resolution MRI images from low-resolution inputs, with enhanced feature fusion and perceptual loss optimization, and performance validated using quantitative metrics.
 
       </p>
     
@@ -3109,10 +3041,94 @@ It was the spring of hope, it was the winter of despair.</p>
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template" data-link="/website/">
+  <div class="tags" data-link="/website/">
     
-      <a href="/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+        resource
+      </a>
+    
+      <a href="/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  
+    <a href="/website/images/project4.png" data-lightbox="project-gallery" data-title="CEUS Motion Compensation">
+      <img src="/website/images/project4.png" alt="CEUS Motion Compensation">
+    </a>
+  
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        CEUS Motion Compensation
+    </a>
+    
+
+    
+
+    
+      <p>
+        A novel deep learning framework leveraging spatio-temporal modeling and optical flow estimation to correct for motion artifacts in contrast-enhanced ultrasound imaging, enhancing image clarity and diagnostic reliability.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-link="/website/">
+    
+      <a href="/?search=%22tag:%20research%22" class="tag" data-tooltip='Show items with the tag "research"'>
+        research
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  
+    <a href="/website/images/project5.png" data-lightbox="project-gallery" data-title="Early AD Detection">
+      <img src="/website/images/project5.png" alt="Early AD Detection">
+    </a>
+  
+
+  <div class="card-text">
+    
+      <a class="card-title">
+        Early AD Detection
+    </a>
+    
+
+    
+
+    
+      <p>
+        A novel multimodal deep learning framework integrating MRI-based neuroimaging with retinal biomarker analysis to facilitate early Alzheimer’s diagnosis through advanced feature extraction and fusion techniques.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-link="/website/">
+    
+      <a href="/?search=%22tag:%20research%22" class="tag" data-tooltip='Show items with the tag "research"'>
+        research
       </a>
     
   </div>
@@ -3142,7 +3158,7 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <span class="portrait-description">
-        Principal Investigator
+        Director
       </span>
     
 
@@ -3166,7 +3182,7 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <span class="portrait-description">
-        Reasearch Asssistant (MS ECE 2024)
+        Research Assistant (MS ECE 2023)
       </span>
     
 
@@ -3190,7 +3206,31 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <span class="portrait-description">
-        Reasearch Asssistant (BS, 2028)
+        Research Assistant (BS, 2028)
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/website/members/emma.html" class="portrait" data-style="" aria-label="Xiaomeng Lei Emma">
+    
+      <i class="icon fa-solid fa-code"></i>
+    
+
+    <img src="/website/images/Emma.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Xiaomeng Lei (Emma)
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Statistician (MPH, 2017)
       </span>
     
 
@@ -3214,7 +3254,7 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <span class="portrait-description">
-        Reasearch Asssistant
+        Research Assistant
       </span>
     
 
@@ -3223,7 +3263,7 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/website/members/ketki-kinkar.html" class="portrait" data-style="" aria-label="Ketki Kinkar">
+  <a href="/website/members/ketki-kinkar.html" class="portrait" data-style="" aria-label="Ketki K Kinkar">
     
       <i class="icon fa-solid fa-code"></i>
     
@@ -3232,13 +3272,13 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <span class="portrait-name">
-        Ketki Kinkar
+        Ketki K Kinkar
       </span>
     
 
     
       <span class="portrait-description">
-        Reasearch Asssistant (MS Applied Data Science 2024)
+        Research Assistant (MS Applied Data Science 2024)
       </span>
     
 
@@ -3262,7 +3302,7 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <span class="portrait-description">
-        Reasearch Asssistant (MS Applied Data Science 2025)
+        Research Assistant (MS Applied Data Science 2025)
       </span>
     
 
@@ -3271,16 +3311,40 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/website/members/rahatul-jannat.html" class="portrait" data-style="" aria-label="Rahatul Jannat">
+  <a href="/website/members/neha-yadav.html" class="portrait" data-style="" aria-label="Neha Yadav">
+    
+      <i class="icon fa-solid fa-code"></i>
+    
+
+    <img src="/website/images/Neha.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Neha Yadav
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Research Assistant (MS Medical Device &amp; Diagnostic Engineering, 2024)
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/website/members/rahatul-jannat.html" class="portrait" data-style="" aria-label="Sk Rahatul Jannat">
     
       <i class="icon fa-solid fa-glasses"></i>
     
 
-    <img src="/website/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
+    <img src="/website/images/raha.JPG" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
-        Rahatul Jannat
+        Sk Rahatul Jannat
       </span>
     
 
@@ -3310,7 +3374,7 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <span class="portrait-description">
-        Reasearch Asssistant
+        Research Assistant
       </span>
     
 
@@ -3334,7 +3398,31 @@ It was the spring of hope, it was the winter of despair.</p>
 
     
       <span class="portrait-description">
-        Reasearch Asssistant (BS, 2025 &amp; MPH, 2026)
+        Research Assistant (BS, 2025 &amp; MPH, 2026)
+      </span>
+    
+
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/website/members/steven-cen.html" class="portrait" data-style="" aria-label="Steven Cen">
+    
+      <i class="icon fa-solid fa-microscope"></i>
+    
+
+    <img src="/website/images/Steven_Cen.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Steven Cen
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        Principal Investigator
       </span>
     
 
@@ -3390,7 +3478,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 01, 2025</span>
+      <span>February 06, 2025</span>
     </span>
   
 </div>
@@ -3465,7 +3553,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 01, 2025</span>
+      <span>February 06, 2025</span>
     </span>
   
 </div>
@@ -3528,7 +3616,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 01, 2025</span>
+      <span>February 06, 2025</span>
     </span>
   
 </div>
@@ -3767,9 +3855,11 @@ It was the spring of hope, it was the winter of despair.</p>
 <h2 id="card">Card</h2>
 
 <div class="card" data-style="">
-  <a href="https://nasa.gov/" aria-label="A Large Card" class="card-image">
-    <img src="/website/images/icon.png" alt="A Large Card" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/icon.png" data-lightbox="project-gallery" data-title="A Large Card">
+      <img src="/website/images/icon.png" alt="A Large Card">
+    </a>
+  
 
   <div class="card-text">
     
@@ -3807,9 +3897,11 @@ It was the spring of hope, it was the winter of despair.</p>
 </div>
 
 <div class="card" data-style="small">
-  <a aria-label="A Small Card" class="card-image">
-    <img src="/website/images/icon.png" alt="A Small Card" loading="lazy" onerror="this.src = '/website/images/fallback.svg'; this.onerror = null;">
-  </a>
+  
+    <a href="/website/images/icon.png" data-lightbox="project-gallery" data-title="A Small Card">
+      <img src="/website/images/icon.png" alt="A Small Card">
+    </a>
+  
 
   <div class="card-text">
     
@@ -3972,7 +4064,7 @@ It was the spring of hope, it was the winter of despair.</p>
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 01, 2025</span>
+      <span>February 06, 2025</span>
     </span>
   
 </div>
@@ -6870,7 +6962,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 01, 2025</span>
+      <span>February 06, 2025</span>
     </span>
   
 </div>
@@ -6945,7 +7037,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 01, 2025</span>
+      <span>February 06, 2025</span>
     </span>
   
 </div>
@@ -7008,7 +7100,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 01, 2025</span>
+      <span>February 06, 2025</span>
     </span>
   
 </div>
@@ -7296,5 +7388,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js">
+</script>
   </body>
 </html>
