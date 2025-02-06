@@ -2,6 +2,7 @@
 name: Steven Cen
 image: images/Steven_Cen.jpg
 role: principal-investigator
+description: Co-Investigator
 links:
   google-scholar: https://scholar.google.com/citations?user=YNXb7hAAAAAJ&hl=en&cstart=0&pagesize=20
   website: https://keck.usc.edu/faculty-search/steven-yong-cen/
