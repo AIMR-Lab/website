@@ -14,7 +14,7 @@ We also participate in the USC CURVE Fellowship!
   include button.html
   type="info"
   text="More Information"
-  tooltip="Learn More"
-  link="https://maps.usc.edu/?id=1928#!ct/53722,53723,55414,55415,55418?m/556826?s/no"
+  tooltip="Learn More about the Fellowship"
+  link="https://viterbiundergrad.usc.edu/research/curve/"
 %} 
 
