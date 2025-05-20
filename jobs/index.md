@@ -1,7 +1,7 @@
 ---
 title: Jobs
 nav:
-  order: 5
+  order: 6
   tooltip: Join our Team
 ---
 
