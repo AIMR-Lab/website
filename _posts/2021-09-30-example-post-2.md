@@ -1,6 +1,6 @@
 ---
-title: Example post 2
-author: jane-smith
+title: Women's Health Symposium
+image: image/WHS-1.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Research work titled AI-Enhanced Imaging Approaches for Breast Cancer was presented at Women's Health Symposium, UC Davis Health by Dr. Bino Varghese

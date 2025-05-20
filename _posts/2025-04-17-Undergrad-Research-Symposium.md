@@ -8,9 +8,6 @@ Research Work titled The Role of Diffusion-Weighted MRI Radiomics in Improving B
 {%
   include feature.html
   image="images/URS-1.png"
-  link="projects"
-  title="Our Projects"
-  flip=true
   style="bare"
   text=text
 %}
@@ -18,9 +15,6 @@ Research Work titled The Role of Diffusion-Weighted MRI Radiomics in Improving B
 {%
   include feature.html
   image="images/URS-2.png"
-  link="projects"
-  title="Our Projects"
-  flip=true
   style="bare"
   text=text
 %}
