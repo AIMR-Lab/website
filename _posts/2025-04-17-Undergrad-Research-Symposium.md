@@ -6,13 +6,14 @@ image: images/URS-1.png
 Research Work titled The Role of Diffusion-Weighted MRI Radiomics in Improving Breast Cancer Diagnosis and Treatment and Multimodal Radiomic Profiling Distinguishes AT1-GKTG and AT2-SKTG Lung Adenocarcinoma Models were presented at the Undergraduate Research Symposium by Emily Parker and Sophia Hai.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 20px 0;">
-  <div style="width: 100%;">
-    {% include feature.html image="images/URS-1.png" style="bare width-100" text=text %}
+  <div style="display: flex; justify-content: center; align-items: center;">
+    {% include feature.html image="images/URS-1.png" style="bare" text=text %}
   </div>
-  <div style="width: 100%;">
-    {% include feature.html image="images/URS-2.png" style="bare width-100" text=text %}
+  <div style="display: flex; justify-content: center; align-items: center;">
+    {% include feature.html image="images/URS-2.png" style="bare" text=text %}
   </div>
 </div>
+
 
 
 
