@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-Explore our research lab blog for articles, conference highlights, and poster presentations from leading symposiums, showcasing our latest scientific advancements and collaborative achievements.
+Explore our blog for articles, conference highlights, and poster presentations from leading symposiums, showcasing our latest scientific advancements and collaborative achievements.
 
 {% include section.html %}
 
