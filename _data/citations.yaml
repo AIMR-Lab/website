@@ -500,25 +500,6 @@
   term: Bino Varghese[Author]
   plugin: pubmed.py
   file: pubmed.yaml
-- id: pubmed:33633145
-  title: Machine learning based predictors for COVID-19 disease severity.
-  authors:
-  - Dhruv Patel
-  - Vikram Kher
-  - Bhushan Desai
-  - Xiaomeng Lei
-  - Steven Cen
-  - Neha Nanda
-  - Ali Gholamrezanezhad
-  - Vinay Duddalwar
-  - Bino Varghese
-  - Assad A Oberai
-  publisher: Scientific reports
-  date: '2021-02-25'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/33633145
-  term: Bino Varghese[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:33434374
   title: Identification of robust and reproducible CT-texture metrics using a customized
     3D-printed texture phantom.
@@ -680,22 +661,6 @@
   publisher: AJR. American journal of roentgenology
   date: '2019-01-08'
   link: https://www.ncbi.nlm.nih.gov/pubmed/30620678
-  term: Bino Varghese[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:30506142
-  title: Juxtatumoral perinephric fat analysis in clear cell renal cell carcinoma.
-  authors:
-  - Tania S Gill
-  - Bino A Varghese
-  - Darryl H Hwang
-  - Steven Y Cen
-  - Manju Aron
-  - Monish Aron
-  - Vinay A Duddalwar
-  publisher: Abdominal radiology (New York)
-  date: '2019-04-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/30506142
   term: Bino Varghese[Author]
   plugin: pubmed.py
   file: pubmed.yaml

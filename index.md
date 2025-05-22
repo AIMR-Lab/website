@@ -29,6 +29,31 @@ We are always looking for motivated graduate and undergraduate students to join 
 
 {% capture text %}
 
+Explore our blog for articles, conference highlights, and poster presentations from leading symposiums, showcasing our latest scientific advancements and collaborative achievements.
+
+{%
+  include button.html
+  link="blog"
+  text="See our articles"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/URS-1.jpg"
+  link="blog"
+  title="Blog"
+  text=text
+  style="bare"
+  flip=true
+%}
+
+{% capture text %}
+
 We use data science to answer important questions in biology and medicine. In all of our research, we prioritize transparency, rigor, and reproducibility.
 
 {%
